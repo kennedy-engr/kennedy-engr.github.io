@@ -1,0 +1,161 @@
+
+/* ******GENERAL SETTINGS******* */
+
+* 
+{
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ 
+body
+{
+    background-color: #f1f1f1;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    font-size: 14px;
+}
+
+a:link { /* settings of all links a:*/
+  text-decoration: none;
+  color: #B10DC9;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: underline;
+}
+
+/* ******HEADER******* */
+.header
+{
+  min-height: 200px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), 
+  rgba(0, 0, 0, 0.5)), url("pics/tech1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.headerText
+{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+h1.topText {
+	text-align: center; 
+}
+
+h4.text2 {
+	padding:15px;
+}
+
+/* ********BODY*********** */
+
+.bodyContainer {
+  display: flex;
+  flex-direction: row; /* default */
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: #1f4060;
+}
+
+.rightSide {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #667292;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.rightSide * {  /* All child elements of rightSide */
+    padding: 2px;
+}
+
+.main {
+	flex-grow: 8;
+	background-color: #d9e6f2;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main * {  /* All child elements of main */
+    padding: 10px 20px 20px 20px;
+}
+
+
+/* ******FOOTER********   */ 
+.contactInfo
+{
+  padding: 20px;
+  text-align: center;
+  background: #878f99;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* ******IMAGES********   */ 
+
+.projectOnePic 
+{
+	/*display: block;
+    margin-left: auto;
+    margin-right: auto;      code to center picture  */
+	width:auto; 
+	height:300px;
+	opacity: 1;
+}
+.projectOnePic:hover {
+	opacity: 0.8;
+}
+
+.blogPic
+{
+	width:auto; 
+	height:300px;
+	opacity: 1;
+}
+
+.blogPic:hover {
+	opacity: 0.8;
+}
+
+.mePic
+{
+	width: autopx;
+	height: 200px; 
+}
+
+.boulderPic {
+	width: autopx;
+	height: 300px; 
+	padding-top: 20px;
+}
+
+.travelPic {
+	width: autopx;
+	height: 300px; 
+	padding-top: 20px;
+}
+
+/* ****RESPONSIVE LAYOUT ***** */
+
+
+@media screen and (max-width: 700px) {
+  .bodyContainer {   
+    flex-direction: column;
+  }
+  .rightSide {
+    padding: 20px;
+  }
+}
+
+
