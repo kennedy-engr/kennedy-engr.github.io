@@ -153,6 +153,68 @@ h4.text2 {
 	padding-top: 20px;
 }
 
+/* ******** Blog page Stuff ******* */
+
+
+.bodyContainer2 {
+  padding: 20px;
+  background-color: #1f4060;
+}
+
+.main2 {
+	flex-grow: 8;
+	background-color: #d9e6f2;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.rightside2{
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #667292;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.blogCollage { 
+  width: autopx;
+  height: 300px;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+.blogCollageTurn { 
+  image-orientation: from-image;
+  width: autopx;
+  height: 300px;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+.blogList { 
+  height: 40vh;
+  flex-grow: 1;
+}
+
+.blogUl {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.picDiv {
+	padding: 20px 30px 20px;
+}
+
+.captions {
+	padding: 5px;
+	text-align: center;
+}
+
+
 /* ****RESPONSIVE LAYOUT (PHONES || IPADS) ***** */
 
 
