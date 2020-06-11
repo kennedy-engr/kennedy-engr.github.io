@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Zig Zag",
+"productVersion": "0.1",
+"dataUrl": "ZigZag3.data.unityweb",
+"wasmCodeUrl": "ZigZag3.wasm.code.unityweb",
+"wasmFrameworkUrl": "ZigZag3.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.3.1f1"
+}
