@@ -31,6 +31,7 @@ a:active {
   text-decoration: underline;
 }
 
+
 /* ******HEADER******* */
 .header
 {
@@ -55,6 +56,13 @@ a:active {
 
 h1.topText {
 	text-align: center; 
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+h3.titleText {
+    padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 h4.text2 {
@@ -88,8 +96,38 @@ h4.text2 {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.main * {  /* All child elements of main */
-    padding: 10px 20px 20px 20px;
+/*****ENTRIES******/
+
+.entry {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  overflow: hidden;
+}
+
+.column1 {
+  padding: 10px 10px 20px 20px;
+  flex: 50%;
+}
+
+.column2 {
+  padding: 10px 20px 20px 10px;
+  flex: 50%;
+  flex-basis: 420px;
+}
+
+a.descLinks {
+	display: block;
+	padding-top: 15px;
+}
+
+.descPars {
+	border: 1px solid #667292;
+	border-radius: 3px;
+	outline: none;
+	box-sizing: border-box;
+	padding: 10px 10px 10px 10px;
+	box-shadow: 0 0 8px 0;
 }
 
 
@@ -106,6 +144,10 @@ h4.text2 {
 
 .projectOnePic 
 {
+	border: 1px solid #555;
+	box-shadow: 0 0 8px 0;
+	
+
 	width:auto; 
 	height:300px;
 	opacity: 1;
@@ -127,7 +169,7 @@ h4.text2 {
 .blogPic
 {
 	width:auto; 
-	height:250px;
+	height:300px;
 	opacity: 1;
 }
 
@@ -252,7 +294,7 @@ h4.text2 {
 .projectTwoPic 
  {
 	width:auto; 
-	height: 100px;
+	height: 170px;
  }
  
  .blogPic
