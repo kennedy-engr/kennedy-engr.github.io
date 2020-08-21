@@ -73,7 +73,7 @@ h4.text2 {
 
 .bodyContainer {
   display: flex;
-  flex-direction: row; /* default */
+  flex-direction: row; 
   flex-wrap: wrap;
   padding: 20px;
   background-color: #1f4060;
