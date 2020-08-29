@@ -156,8 +156,6 @@ a.descLinks {
 {
 	border: 1px solid #555;
 	box-shadow: 0 0 8px 0;
-	
-
 	width:auto; 
 	height:300px;
 	opacity: 1;
@@ -170,7 +168,6 @@ a.descLinks {
 {
 	border: 1px solid #555;
 	box-shadow: 0 0 8px 0;
-	
 	width:auto; 
 	height: 300px;
 	opacity: 1;
@@ -280,6 +277,7 @@ a.descLinks {
   .bodyContainer {   
     flex-direction: column;
   }
+  
   .rightSide {
     padding: 20px;
   }
