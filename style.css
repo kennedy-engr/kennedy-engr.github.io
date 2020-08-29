@@ -256,7 +256,6 @@ a.descLinks {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
-  
   justify-content: center;
   align-items: center;
   margin: 0;
@@ -300,6 +299,11 @@ a.descLinks {
   }
   
  /* Chagne size of picutes when in this mode vs other mode.. its the only way!! */
+ 
+ .blogCollage { 
+  width: autopx;
+  height: 170px;
+}
  
  .projectOnePic 
  {
