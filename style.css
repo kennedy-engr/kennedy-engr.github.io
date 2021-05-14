@@ -50,7 +50,7 @@ a.images:hover {
 }
 
 
-/* ******HEADER******* */
+/* ******HEADER and TITLES******* */
 .header
 {
   min-height: 200px;
@@ -80,7 +80,17 @@ h1.topText {
 	padding-bottom: 10px;
 }
 
+h2.titleText {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
 h3.titleText {
+    padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+h4.titleText {
     padding-top: 10px;
 	padding-bottom: 10px;
 }
@@ -153,6 +163,12 @@ h4.text2 {
 }
 
 .indented {
+	margin-left: 40px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.indentedList {
 	margin-left: 40px;
 	margin-top: 20px;
 	margin-bottom: 40px;
